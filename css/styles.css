@@ -1,0 +1,278 @@
+** {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Serif Display", "Jost", "Inter", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*/ SECTION HEADER /*/
+
+header {
+    display: flex;
+}
+
+.logo {
+    margin-top: 54px;
+}
+.logo-svg {
+    margin-left: 250px;
+}
+.logo-text {
+    font-size: 40px;
+    line-height: 125%;
+}
+.nav-list {
+    display: flex;
+    margin-top: 71px;
+    padding: 0;
+    margin-left: 339px;
+}
+.list {
+}
+.nav-list-link {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 125%;
+
+}
+
+.nav-item:not(:first-child) {
+    padding-left: 45px;
+}
+
+.nav-list-link:focus,
+.nav-list-link:active,
+.nav-list-link:hover {
+    color: rgb(199, 105, 4);
+    transition: color 250ms;
+}
+
+.search-link {
+}
+
+/*/ MAIN SECTION /*/
+
+.main-section {
+    background-image: url(/images/main_back.png);
+    background-repeat: no-repeat;
+    width: 1210px;
+    height: 758px;
+    margin-left: 250px;
+    margin-top: 162px;
+
+}
+.main-sec-text {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 65px;
+    letter-spacing: 125%;
+    color: rgb(255, 255, 255);
+    padding-top: 73px;
+    padding-left: 25px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+.main-sec-parag {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 150%;
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.main-btn {
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    background: rgb(205, 162, 116);
+    width: 227.14px;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+    border: none;
+    margin-left: 25px;
+}
+
+/*/ DOP MENU /*/
+
+.dop-menu {
+    margin-left: 270px;
+    margin-top: 95px;
+}
+.dop-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.dop-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dop-h-text {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 125%;
+    margin: 0;
+}
+
+.dop-prarag {
+    color: rgb(77, 80, 83);
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 52px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.dop-link {
+    display: flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2%;
+    line-height: 125%;
+    text-align: center;
+    color: rgb(77, 80, 83);
+    gap:10px;
+    margin: 0;
+}
+
+/*/ CREATE SECTION /*/
+
+.create-section {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 154px;
+}
+.create-div-main {
+    background-image: url(/images/Subtract2.png);
+    width: 653px;
+    height: 700px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 999;
+}
+.create-text-main {
+    color: rgb(255, 255, 255);
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-left: 25px;
+    margin-top: 142px;
+}
+
+.create-parag {
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.main-additional-image {
+    position: absolute;
+    z-index: 1;
+    width: 802.59px;
+    height: 700px;
+    margin-left: 406px;
+}
+
+.call-us {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 47px;
+}
+
+.call-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.call-span {
+    width: 93px;
+    height: 93px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-svg {
+}
+.phone-number {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.any-time {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.button-get-free {
+    margin: 0;
+    padding: 0;
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    background: rgb(205, 162, 116);
+    width: 247.14px;
+    height: 75px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+    gap:10px;
+}
